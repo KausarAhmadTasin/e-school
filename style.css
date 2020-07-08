@@ -1,4 +1,4 @@
-.all-button{
+.button{
     background: #21B573 ;
     border: none;
     color: rgb(255, 255, 255);
@@ -9,8 +9,34 @@
     width: 110px;
     height: 43px;
    
-    left: 980px;
+    left: 1100px;
 }   
+.second-button{
+    background: #21B573 ;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 600;
+    position: absolute;
+    width: 110px;
+    height: 43px;
+    top: 200px;
+
+}
+.third-button{
+    background: #21B573 ;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 600;
+    position: absolute;
+    width: 120px;
+    height: 43px;
+    top: 400px;
+
+}
 
 .green-bg{
     background: #F0FFF0;
@@ -19,12 +45,13 @@
 .logo{
     width: 198.07px;
     height: 59px;
+    margin-left: 80px;
 }
 
 #illu{
     width: 554px;
     height: 346px;
-    left: 691px;
+    left: 700px;
     top: 157px;
 }
 
@@ -40,7 +67,106 @@
     font-weight: bold;
     font-size: 48px;
 }
+.adjust{
+    padding-top: 70px;
+    padding-left: 80px;   
+}
+.adjust2{
+    padding-left: 520px;
+}
+
 
 p{
     color: #6C6B6B;
+}
+
+.icons{
+    width: 66px;
+    height: 85px;
+    left: 231px;
+    top: 672px;
+    padding-top: 20px;
+}
+.sm-icons{
+    height: 22px;
+    width: 22px;
+}
+
+.margin-up-bottom{
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+
+.card-style{
+   
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    background:  #F0FFF0;
+    
+    
+}
+
+.card-style:hover{
+    width: 275px;
+    height: 210px;
+    background: white;
+  
+}
+
+.courses{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    
+}
+
+.add-padding{
+    padding-top: 100px;
+    padding-left:  150px;
+    padding-bottom: 100px;
+    
+}
+
+.card{
+    margin-top: 50;
+}
+
+.card-course{
+    box-shadow: 5px 5px 10px lightgray;
+    height: 480px;
+    
+}
+
+
+footer{
+    background-color: rgba(3, 3, 39, 0.87);
+    color: white;
+}
+
+.end{
+    margin-left: 90px;
+}
+a:visited{
+    color: white;
+}
+
+button:hover{
+    background: #4ae7a1 ;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 600;
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    bottom: 10px;
+
+}
+
+#footer{
+    text-align: center;
+    color: lightgray;
+    font-size: 12px;
 }
