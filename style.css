@@ -40,6 +40,7 @@
 
 .green-bg{
     background: #F0FFF0;
+    
 }
 
 .logo{
@@ -86,6 +87,7 @@ p{
     left: 231px;
     top: 672px;
     padding-top: 20px;
+    margin-left: 10px;
 }
 .sm-icons{
     height: 22px;
@@ -101,17 +103,17 @@ p{
 .card-style{
    
     box-shadow: 5px 5px 10px lightgray;
-    border-radius: 10px;
-    background:  #F0FFF0;
-    
-    
+    border-radius: 5px;
+    background-color:  hsl(120, 100%, 97%);
+    width: 250px;
+    height: 200px;
+
 }
 
 .card-style:hover{
-    width: 275px;
-    height: 210px;
+    width: 245px;
+    height: 195px;
     background: white;
-  
 }
 
 .courses{
@@ -170,3 +172,6 @@ button:hover{
     color: lightgray;
     font-size: 12px;
 }
+
+
+
